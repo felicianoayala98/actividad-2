@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    overflow-x: hidden;
+}
+
+.pagina {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+
+    border: 0.1em solid green;
+}
+
+
+/* ENCABEZADO */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 10vw;
+
+    width: 80vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+
+    background-color: green;
+    border-bottom: 0.1em solid darkgreen;
+
+    z-index: 10;
+
+    font-size: 1.5rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #c8e6c9;
+}
+
+
+/* CONTENIDO */
+
+main {
+    height: 80vh;
+
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    padding: 4vh 7vw;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+/* RECETAS */
+
+.receta {
+    width: 90%;
+
+    margin: 0 auto 2vh;
+    padding: 2vh 2vw;
+
+    background-color: white;
+
+    border: 0.1em solid green;
+    border-radius: 2em 0 2em 0;
+}
+
+.receta h2 {
+    text-align: center;
+    margin-top: 0;
+
+    color: green;
+}
+
+
+.ingredientes {
+    width: 60%;
+}
+
+.ingredientes h3 {
+    color: green
+}
+
+.ingredientes ul {
+    padding-left: 1.5rem;
+}
+
+.ingredientes li::marker {
+    color: green;
+}
+
+.imagen {
+    width: 40%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.informacion {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+
+
+
+.receta h3 {
+    margin-bottom: 0.3em;
+    color: darkgreen;
+}
+
+.receta li {
+    margin: 0.3em 0;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 10vw;
+
+    width: 80vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: green;
+    border-top: 0.1em solid darkgreen;
+
+    color: white;
+    font-size: 1.2rem;
+}

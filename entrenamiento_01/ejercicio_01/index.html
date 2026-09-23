@@ -1,40 +1,62 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Currículum Vitae de Tu Nombre">
-    <title>CV - Feliciano Ezequiel Ayala Gutierrez</title>
+    <meta name="description" content="Currículum Vitae de Feliciano Ezequiel Ayala Gutierrez">
+    <title>CV - Feliciano Ayala</title>
     <link rel="stylesheet" href="estilo del CV.css">
 </head>
 
 <body>
 
+
     <main class="cv">
 
         <!-- ENCABEZADO -->
+
         <header class="encabezado">
+
             <div class="datos-personales">
+
                 <h1>Feliciano Ezequiel Ayala Gutierrez</h1>
-                <p>
+
+                <p class="profesion">
                     Desarrollador Web
                 </p>
 
-                <h2>Contacto:</h2>
-
-                <p>Email: felicianoayala@outlook.es<br>
-                    Teléfono: 1173699492<br>
+                <p>
                     Buenos Aires, Argentina
                 </p>
+
             </div>
             <!-- FOTO -->
 
-            <img class="foto" 
-                 src="C:\Universidad\proyectos VS Code\trabajoPractico\Entrenamiento 1\ejercicio 1\imagenes\foto.jpg" 
-                 alt="Foto de perfil">
+            <img class="foto" src="imagenes/foto.jpg" alt="Foto de perfil de Feliciano Ayala">
         </header>
-        <!-- CONTENIDO PRINCIPAL -->
+
+        <!-- INFORMACIÓN DE CONTACTO -->
+
+        <section class="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>
+                <strong>Email:</strong>
+                felicianoayala@outlook.es
+            </p>
+
+            <p>
+                <strong>Teléfono:</strong>
+                1173699492
+            </p>
+
+        </section>
+
+
+        <!-- CONTENIDO -->
 
         <div class="contenido">
 
@@ -43,12 +65,12 @@
             <aside class="lateral">
 
                 <section>
-                    <h2>Manejo de lenguajes:</h2>
+
+                    <h2>Lenguajes</h2>
 
                     <ul>
                         <li>Java</li>
                         <li>CSS</li>
-                        <li>HTML</li>
                         <li>JavaScript</li>
                     </ul>
 
@@ -56,97 +78,121 @@
 
 
                 <section>
-                    <h2>Idiomas:</h2>
+
+                    <h2>Idiomas</h2>
 
                     <ul>
                         <li>Español - Nativo</li>
                         <li>Inglés - Básico</li>
                     </ul>
+
                 </section>
 
             </aside>
 
 
-            <!-- COLUMNA PRINCIPAL -->
+            <!-- CONTENIDO PRINCIPAL -->
+
             <section class="principal">
 
+
                 <!-- PERFIL -->
+
                 <section class="seccion">
 
-                    <h2>Perfil Profesional:</h2>
+                    <h2>Perfil Profesional</h2>
 
                     <p>
-                        Estudiante en Desarrollo Web, con base en diferentes lenguajes
-                        y capacidad a la hora de buscar soluciones a necesidades
-                        dadas dentro del área de la informática. Actualmente desarrollando
-                        nuevos conocimientos.
+                        Estudiante de Desarrollo Web con conocimientos
+                        en programación, desarrollo web y bases de datos.
+                        Actualmente profundizando mis conocimientos en
+                        Java, HTML, CSS, JavaScript y sistemas de bases
+                        de datos.
+                    </p>
+
+                    <p>
+                        Interesado en el desarrollo de aplicaciones,
+                        resolución de problemas y construcción de
+                        soluciones informáticas.
                     </p>
 
                 </section>
 
 
-                <!-- EXPERIENCIA -->
+                <!-- ESTUDIOS -->
+
                 <section class="seccion">
 
-                    <h2>Experiencia Laboral:</h2>
+                    <h2>Estudios</h2>
 
-                    <article class="experiencia">
 
-                        <h3>Desarrollador Web Junior</h3>
+                    <!-- UNIVERSIDAD -->
+
+                    <article class="tarjeta">
+
+                        <h3>
+                            Técnico Universitario en Desarrollo Web
+                        </h3>
 
                         <p>
-                            <strong>NeoTech</strong> |
-                            2024 - Actualidad
+                            <strong>Universidad Nacional de La Matanza</strong>
                         </p>
+
+                        <p>
+                            2024 - Actualmente
+                        </p>
+
+                        <a href="paginas/unlam.html">
+                            Ver información sobre la institución →
+                        </a>
 
                     </article>
 
-                </section>
 
+                    <!-- ESCUELA SECUNDARIA -->
 
-                <!-- EDUCACIÓN -->
-                <section class="seccion">
+                    <article class="tarjeta">
 
-                    <h2>Educación:</h2>
-
-                    <article class="educacion">
-
-                        <h3>Técnico Universitario en Desarrollo Web</h3>
+                        <h3>
+                            Técnico Electromecánico
+                        </h3>
 
                         <p>
-                            UnLaM | 2024 - Actualmente cursando últimas materias.
+                            <strong>E.E.S.T. Nº 7</strong>
                         </p>
-
-                        <h3>Técnico Electromecánico</h3>
 
                         <p>
-                            E.E.S.T Nº 7 | 2010 - 2017
+                            2010 - 2017
                         </p>
+
+                        <a href="paginas/eest7.html">
+                            Ver información sobre la institución →
+                        </a>
+
                     </article>
 
                 </section>
 
 
                 <!-- PROYECTOS -->
+
                 <section class="seccion">
 
-                    <h2>Proyectos:</h2>
+                    <h2>Proyectos destacados</h2>
 
-                    <article class="proyecto">
+                    <article class="tarjeta">
 
                         <h3>
-                            
-                            Proyecto Sala de Cine
-
+                            GitHub
                         </h3>
-                        <p>
-                            Aplicación desarrollada utilizando Java.
 
+                        <p>
+                            Repositorios y proyectos personales.
                         </p>
 
-                        <a href="https://github.com/felicianoayala98/Pb2-SalaDeCine" target="_blank">
-                            Ver proyecto en GitHub.
-
+                        <a href="https://github.com/felicianoayala98?tab=repositories" target="_blank"
+                            rel="noopener noreferrer">
+                            Ver en GitHub →
                         </a>
 
                     </article>
@@ -157,8 +203,18 @@
 
         </div>
 
-    </main>
 
-</body>
+        <!-- PIE DE PÁGINA -->
+
+        <footer>
+
+            <p>
+                © 2026 Feliciano Ezequiel Ayala Gutierrez
+            </p>
+
+        </footer>
+
+    </main>
+  </body>
 
 </html>
